@@ -1,0 +1,7 @@
+pip install APScheduler==3.7.0
+pip instal celery ==  5.0.5
+pip instal django-allauth == 0.44.0
+pip instal django-apscheduler == 0.5.1
+pip instal django-filter == 2.4.0
+pip instal psycopg2-binary == 2.8.6
+pip instal redis == 3.5.3
