@@ -1,0 +1,12 @@
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\apps\news\views.py changed, reloading.
+Watching for file changes with StatReloader
+ъ бннпмхМЦ
+ъъъ хмтннннннн
+ъъъ йпхрхйюккк
+ъ бннпмхМЦ
+ъъъ хмтннннннн
+ъъъ йпхрхйюккк
+"GET /news/ HTTP/1.1" 200 4502
+"GET /news/ HTTP/1.1" 200 4502
+"GET /static/vendor/bootstrap/css/big.jpg HTTP/1.1" 404 1710

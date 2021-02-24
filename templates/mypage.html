@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% comment %} {% load accounts_filters %} {% endcomment %}
+
+
+{% block title %} Кабинет пользователя {% endblock title %}
+
+{% block content %}
+{% block header %}
+<h2 style="text-align: center;"> &nbsp; &nbsp;Кабинет пользователя </h2><br>
+{% endblock header %}
+
+{% block little_header %}
+{% if is_not_author %}
+<p>Если хотите публиковать статьи, то нажмите кнопку "Стать автором"</p>
+<div class="col-lg-8 col-lg-10 mx-auto">
+
+    <a class="btn btn-primary float-center" href="/mypage/upgrade/">Стать автором</a><br>
+</div>
+{% else %}
+<p>У вас статус автора. Вы можете публиковать, редактировать и удалять статьи и новости</p>
+{% endif %}
+{% endblock little_header %}
+
+
+
+<div style="text-align: center;">
+    <table border="1" width="50%" cellpadding="5">
+        <tr>
+            <td>Ваш логин</td>
+            <td>{{user.username}}</td>
+        </tr>
+        <tr>
+            <td>Имя &nbsp;</td>
+            <td>{{user.first_name}}</td>
+        </tr>
+        <tr>
+            <td>Фамилия</td>
+            <td>{{user.last_name}}</td>
+        </tr>
+        <tr>
+            <td>Дата рождения</td>
+            <td>{{ user.date_of_birth }}</td>
+        </tr>
+        <tr>
+            <td>Почта</td>
+            <td>{{user.email}}</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>{{user.id}}</td>
+        </tr>
+        <tr>
+            <td>Подписки</td>
+            <td>{{ category }}</td>
+        </tr>
+        <tr>
+            <td>Дата регистрации</td>
+            <td>{{ user.date_joined }}</td>
+        </tr>
+
+    </table>
+    <hr>
+    <button class="btn btn-warning" type="submit"><a href="/mypage/logout/">Выйти</a></button>
+<button class="btn btn-warning" type="submit"><a href="{% url 'edit' user.id %}">Редактировать профиль</a></button>
+</div>
+{% endblock content %}

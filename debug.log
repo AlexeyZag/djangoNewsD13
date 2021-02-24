@@ -1,0 +1,77 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+3
+3
+3
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+INFO Watching for file changes with StatReloader
+INFO C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+DEBUG Using proactor: IocpProactor
+2021-02-23 22:32:32,874 INFO Watching for file changes with StatReloader
+2021-02-23 22:33:02,547 DEBUG 4
+2021-02-23 22:33:05,785 DEBUG 4
+2021-02-23 22:33:08,058 DEBUG 4
+2021-02-23 22:33:10,143 DEBUG 4
+2021-02-23 22:33:15,788 DEBUG Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+4
+4
+4
+C:\Users\alex8\PycharmProjects\djangoNews2\apps\news\views.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+5
+5
+5
+Using proactor: IocpProactor
+2021-02-23 22:50:30,966 INFO Watching for file changes with StatReloader
+2021-02-23 22:50:35,814 DEBUG 6
+2021-02-23 22:50:36,508 DEBUG 6
+2021-02-23 22:50:37,154 DEBUG 6
+2021-02-23 22:50:39,089 DEBUG Using proactor: IocpProactor
+2021-02-23 22:50:39,237 DEBUG Using proactor: IocpProactor
+2021-02-23 22:54:31,929 INFO Watching for file changes with StatReloader
+2021-02-23 22:54:37,448 DEBUG sdfsdfdsf
+2021-02-23 22:54:37,619 INFO "GET /news/ HTTP/1.1" 200 4502
+2021-02-23 22:54:37,750 WARNING "GET /static/vendor/bootstrap/css/big.jpg HTTP/1.1" 404 1710
+2021-02-23 22:54:38,222 DEBUG sdfsdfdsf
+2021-02-23 22:54:38,258 INFO "GET /news/ HTTP/1.1" 200 4502
+2021-02-23 22:54:38,771 DEBUG sdfsdfdsf
+2021-02-23 22:54:38,812 INFO "GET /news/ HTTP/1.1" 200 4502
+2021-02-23 22:55:15,572 INFO C:\Users\alex8\PycharmProjects\djangoNews2\djangoNews2\settings.py changed, reloading.
+2021-02-23 22:55:15,573 DEBUG Using proactor: IocpProactor
+2021-02-23 22:55:27,233 DEBUG Using proactor: IocpProactor
